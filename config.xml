@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fivetechnology.squares"
+        version="1.0.0"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Camera</name>
+    <description>
+        Upload a photo
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Dustin Butler
+    </author>
+    <gap:platform name="android" />
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/camera" />
+    <feature name="http://api.phonegap.com/1.0/media" />
+
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
+    <gap:plugin name="org.apache.cordova.media-capture" version="0.3.3" />
+   
+</widget>
