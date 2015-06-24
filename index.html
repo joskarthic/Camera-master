@@ -28,9 +28,11 @@
 
     ft.upload(imageURI, "http://appnlogic.com/demo/uploads/",
       function (r) {
+        alert("success");
         alert("Code = " + r.responseCode + ": Response = " + r.response + ": Sent = " + r.bytesSent);
       },
       function (r) {
+        alert("error");
         alert("An error has occurred: Code = " + error.code + ':' + error.source + ':' + error.target);
       }, options);
   }
